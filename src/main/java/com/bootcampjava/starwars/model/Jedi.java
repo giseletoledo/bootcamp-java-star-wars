@@ -4,22 +4,22 @@ public class Jedi {
 
     private int id;
     private String name;
-    private int strength;
-    private String version;
+    private int strenght;
+    private int version;
 
     public Jedi() {
     }
 
-    public Jedi(int id, String name, int strength, String version) {
+    public Jedi(int id, String name, int strength, int version) {
         this.id = id;
         this.name = name;
-        this.strength = strength;
+        this.strenght = strength;
         this.version = version;
     }
 
     public Jedi(String name, int strength) {
         this.name = name;
-        this.strength = strength;
+        this.strenght = strength;
     }
 
     public int getId() {
@@ -38,19 +38,19 @@ public class Jedi {
         this.name = name;
     }
 
-    public int getStrength() {
-        return strength;
+    public int getStrenght() {
+        return strenght;
     }
 
-    public void setStrength(int strength) {
-        this.strength = strength;
+    public void setStrenght(int strenght) {
+        this.strenght = strenght;
     }
 
-    public String getVersion() {
+    public int getVersion() {
         return version;
     }
 
-    public void setVersion(String version) {
+    public void setVersion(int version) {
         this.version = version;
     }
 }
